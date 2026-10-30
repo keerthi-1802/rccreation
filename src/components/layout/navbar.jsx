@@ -6,9 +6,11 @@ import logoWhite from "../../assets/logo/km.gif";
 
 const navLinks = [
   { label: "Home", href: "/", id: "home" },
-  { label: "Services", href: "/services", id: "services" },
-  { label: "Our Work", href: "/portfolio", id: "portfolio" },
   { label: "About", href: "/about", id: "about" },
+  { label: "Services", href: "/services", id: "services" },
+  { label: "Courses", href: "/course", id: "course" },
+  { label: "Contact", href: "/contact", id: "contact" },
+
 ];
 
 export default function Navbar() {
